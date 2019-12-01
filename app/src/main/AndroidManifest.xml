@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mrtdgny1903.user.Body_Mass_Index">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/heartbeat"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/heartbeat"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Gender_Body"
+            android:screenOrientation="portrait"
+            android:label="Body Mass Index"/>
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Height_Body"
+            android:label="Body Mass Index"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Weight_Body"
+            android:label="Body Mass Index"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Calculate_Body"
+            android:screenOrientation="portrait"
+            android:label="Body Mass Index"/>
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Gender_Basal"
+            android:screenOrientation="portrait"
+            android:label="Basal Metabolism Rate"/>
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Age_Basal"
+            android:label="Basal Metabolism Rate"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Height_Basal"
+            android:label="Basal Metabolism Rate"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Weight_Basal"
+            android:label="Basal Metabolism Rate"
+            android:windowSoftInputMode="stateVisible"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Goal_Basal"
+            android:screenOrientation="portrait"
+            android:label="Basal Metabolism Rate"/>
+        <activity
+            android:name="com.mrtdgny1903.user.Body_Mass_Index.Calculate_Basal"
+            android:screenOrientation="portrait"
+            android:label="Basal Metabolism Rate">
+        </activity>
+    </application>
+
+</manifest>
